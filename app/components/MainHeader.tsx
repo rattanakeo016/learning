@@ -13,7 +13,6 @@ const MainHeader = (props: Props) => {
         <View style={styles.container}>
             <SafeAreaView />
             <Text style={styles.textLogo}>Online</Text>
-            
         </View>
     )
 }

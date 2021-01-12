@@ -23,7 +23,6 @@ export default class GetStartContainer extends React.Component<Props, State> {
     return (
       <GetStartScreen
         route={this.props.route}
-
       />
     );
   }

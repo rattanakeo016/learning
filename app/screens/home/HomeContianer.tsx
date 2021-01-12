@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
+import HomeNewScreen from './HomeNewScreen';
 import HomeScreen from './HomeScreen';
 
 interface Props {
@@ -18,9 +19,10 @@ export default class HomeContainer extends React.Component<Props, State> {
 
     public render() {
         return (
-            <HomeScreen
-            navigation={this.props.navigation}
-             />
+            // <HomeScreen
+            // navigation={this.props.navigation}
+            //  />
+            <HomeNewScreen/>
         );
     }
 }

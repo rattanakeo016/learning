@@ -1,6 +1,6 @@
 const colors = {
   LINK: "#1a73e8",
-  PRIMARY: "#E4AF09",
+  PRIMARY: "#29304d",
   PRIMARY_TAB: "#8e96a3",
   PLACE_HOLDER: "rgba(0,0,0,.3)",
   ACTIVE: "#049BE5",

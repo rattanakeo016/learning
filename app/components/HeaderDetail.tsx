@@ -1,6 +1,7 @@
 import { useNavigation } from '@react-navigation/native'
 import React from 'react'
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
+import FastImage from 'react-native-fast-image'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { FontGSansBold } from '../../customs/customFont'
 import modules from '../modules'
@@ -16,7 +17,7 @@ const HeaderDetail = (props: Props) => {
             <SafeAreaView />
             <TouchableOpacity
                 onPress={() => { navigation.goBack() }}
-            >
+                >
                 <Text style={styles.textLogo}>Back</Text>
             </TouchableOpacity>
 
